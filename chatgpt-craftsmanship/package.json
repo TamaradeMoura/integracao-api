@@ -1,0 +1,25 @@
+{
+  "name": "chatgpt-craftsmanship",
+  "version": "1.0.0",
+  "description": "Aplicação CLI que integra com a API do ChatGPT (OpenAI), construída com Clean Code, SOLID e testes automatizados.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "openai",
+    "chatgpt",
+    "clean-code",
+    "solid",
+    "jest"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.56.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
